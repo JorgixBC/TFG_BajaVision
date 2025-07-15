@@ -5,3 +5,4 @@ assists people with low vision in detecting obstacles in urban environments. Thi
 device will use distance sensors and artificial intelligence to identify the presence of
 obstacles such as steps, curbs, or other ground-level changes.
 
+"# TFG_BajaVision" 
