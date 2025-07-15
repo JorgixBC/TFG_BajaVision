@@ -1,59 +1,12 @@
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z734F5Y)
-# TensorFlow-Lite and Platform.io
-
-This repo demonstrates how to use a TensorFlow model on the ESP32 using Platform.io.
-
-There's a walkthrough video here: https://youtu.be/kZdIO82059E
-
-[![Demo Video](https://img.youtube.com/vi/kZdIO82059E/0.jpg)](https://www.youtube.com/watch?v=kZdIO82059E)
-
-## Setup
-
-To train the model you'll need a python environment. Make sure you have python 3 installed on your system:
-
-```
-python3 --version
-```
-
-Then run the following command to create a virtual python environment.
-
-```
-python3 -m venv venv
-```
-
-Activate the environment using:
-
-```
-. ./venv/bin/activate
-```
-
-And install the dependencies using:
-
-```
-pip install -r requirements.txt
-```
-
-## Training the model
-
-Make sure you have activated the virtual environment using:
-
-```
-. ./venv/bin/activate
-```
-
-Then run:
-
-```
-jupyter notebook .
-```
-
-Open up the `train_model` notebook and follow the instructions in the notebook.
-
-Once you've trained and converted the model run:
-
-```
-xxd -i converted_model.tflite > firmware/src/model_data.cc
-```
-
-You can then open up the platform.io project in `firmware` folder and try it out.
-"# TFG_BajaVision" 
+This project presents the design and implementation of an electronic device that
+assists people with low vision in detecting obstacles in urban environments. This
+device will use distance sensors and artificial intelligence to identify the presence of
+obstacles such as steps, curbs, or other ground-level changes.
+Nowadays, the use of electronic devices specifically designed to improve the quality
+of life for people with disabilities is common. Visual impairments are no exception.
+However, generally speaking, knowledge about eye-related diseases is often
+reduced to a person who can see or a person who cannot see, despite the infinite
+variants that exist between these extremes. Current assistive electronic devices focus
+on users with total blindness, neglecting those with very limited vision that cannot
+be corrected with regular glasses, standard contact lenses, medical treatment, or eye
+surgery—these are known as people with low vision.
