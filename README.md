@@ -1,4 +1,4 @@
-# DISEÑO Y DESARROLLO DE UN DISPOSITIVO PARA ASISTIR A PERSONAS CON BAJA VISIÓN
+# DESIGN AND DEVELOPMENT OF A DEVICE TO ASSIST PEOPLE WITH LOW VISION
 
 This project presents the design and implementation of an electronic device that
 assists people with low vision in detecting obstacles in urban environments. This
